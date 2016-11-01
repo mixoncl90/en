@@ -249,11 +249,45 @@ Sections
   height: auto;
   padding-top: 8rem;
 }
+#bullets{
+  width: 100%;
+  height: auto;
+  max-height: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 43%;
+  padding: 11rem 0 63rem 0;
+}
+.context{
+  float: left;
+  width: 40%;
+  height: auto;
+  margin-top: -5%;
+}
+.line_items{
+  width: 100%;
+  float: left;
+  height: auto;
+}
+.bullet_line{
+  float: left;
+  clear: right;
+  width: 4%;
+  height: auto;
+  margin-right: 4%;
+  padding-top: 1.4%;
+}
+.line_items h3{
+  font-size:2.2em;
+  margin-bottom: 2%;
+
+}
+
 #problem{
   width: 100%;
   max-width: 1440px;
   height: 600px;
-  margin-top: 70rem;
+  /*margin-top: 70rem;*/
   background-image:url(../img/why_bg.png); 
   background-repeat: no-repeat;
   z-index: 50;
@@ -279,6 +313,23 @@ Sections
   margin-top: 4rem;
   color: #000035;
 }
+/** --------------------
+
+Images
+
+----------------------*/
+#centerimage{
+  width: 55%;
+  /*clear: right;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
+  height: auto;
+  float: left;
+  margin-top: -8%;
+
+}
+
+
 #facts_container{
   width: 100%;
   max-width: 1360px ;
@@ -416,6 +467,11 @@ Sections
   position: relative;
   display: block; 
 }
+#details_content_right span{
+  font-size: 16px;
+  color: #4A90E2;
+  letter-spacing: 0px;
+}
 #details h2{
   text-align: center;
 }
@@ -437,6 +493,8 @@ Sections
 }
 #details #details_content_right p{
   width: 80%;
+  margin-top: 3%;
+
 }
 #details #details_content_right .text{
   width: 45%; /*627px*/
@@ -452,6 +510,7 @@ Sections
 }*/
 #details #details_content_left p{
   width: 80%;
+  margin-top: 3%;
 }
 #details #details_content_left .text{
   width: 45%; /*627px*/
@@ -460,13 +519,11 @@ Sections
   padding-top: 2rem;
   margin-left: 2rem;
 }
-#details #details_content_left .text caption{
-  width: auto;
-  height: auto;
-  font-family: 'Lato';
-  font-size: 0.7em;
+#details_content_left span{
+  font-size: 16px;
   color: #4A90E2;
   letter-spacing: 0px;
+}
 }
 
 
