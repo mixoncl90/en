@@ -285,7 +285,7 @@ Sections
 #problem{
   width: 100%;
   max-width: 1440px;
-  height: 600px;
+  height: 60rem; /*600px*/
   /*margin-top: 70rem;*/
   background-image:url(../img/why_bg.png); 
   background-repeat: no-repeat;
@@ -299,7 +299,7 @@ Sections
   margin-bottom: 10rem;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 7.8rem;
+  padding-top: 9.8rem;
 }
 #problem_content h2{
   text-align: center;
@@ -335,6 +335,7 @@ Images
   height: auto; 
   margin-left: auto;
   margin-right: auto;
+  margin-top: -32%;
 }
 .facts h3{
   font-family: 'Montserrat', 'Raleway', 'Lato', sans-serif;
@@ -445,26 +446,25 @@ Images
 
 
 
-
-
 #details{
   width: 100%;
   max-width: 1440px;
   height: 600px;
 }
 #details_content_left{
-  margin-top: 6rem;
+  margin-top: 90rem;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   display: block; 
 }
 #details_content_right{
-  margin-top: 70rem;
+  margin-top: 90rem;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   display: block; 
+  padding-top: 55rem;
 }
 #details_content_right span{
   font-size: 16px;
