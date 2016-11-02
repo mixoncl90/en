@@ -11,6 +11,7 @@ End of Fonts*/
 Primary style
 
 -------------------------------- */
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -76,9 +77,50 @@ BUTTONS
     margin-right: 3rem;
 
   }
+/* -------------------------------- 
 
+FADE IN 
 
-
+-------------------------------- */
+#page {
+    margin-top: 0;/*25px*/
+    animation: fadein 3s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 /* -------------------------------- 
 
  GENERAL
@@ -177,30 +219,25 @@ header{
     width: 10rem;
 }
 
-@media only screen and (min-width: 1000px) {
-  }
 /* -------------------------------- 
 
 General Style
 
 -------------------------------- */
 
+
 @media only screen and (min-width: 768px) {
 }
+
+@media only screen and (min-width: 768px) {
+  
+}
+
 @media only screen and (min-width: 480px) {
-}
-@media only screen and (min-width: 768px) {
-}
-
-
-@media only screen and (min-width: 768px) {
   
 }
 
 
-@media only screen and (min-width: 768px) {
-  
-}
 
 
 /* -------------------------------- 
@@ -210,7 +247,7 @@ Main site content
 -------------------------------- */
 .main {
   min-height: 100vh;
-  background-color: none;
+  margin-top: -1.8%;
 }
 
 

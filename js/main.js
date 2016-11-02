@@ -137,6 +137,9 @@ jQuery(document).ready(function($){
 
 			resizing = false;
 		};
+
+
+		
 	}
 	
 });
