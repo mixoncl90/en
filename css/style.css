@@ -234,19 +234,11 @@ General Style
 }
 
 @media only screen and (min-width: 480px) mobile {
- #page{
-  width: 100%;
-  
- }
  .cd-btn {
-  width:6rem 
-  height:4rem;
-
+  display: none;
   }
   .cd-btn:hover {
-  width:6rem 
-  height:4rem;
-
+  display: none;
   }
 
 }
