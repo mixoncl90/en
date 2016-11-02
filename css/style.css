@@ -233,8 +233,18 @@ General Style
   
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) mobile {
+ .cd-btn {
+  width:6rem 
+  height:4rem;
   
+  }
+  .cd-btn:hover {
+  width:6rem 
+  height:4rem;
+
+  }
+
 }
 
 
