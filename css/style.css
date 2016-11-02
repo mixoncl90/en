@@ -234,12 +234,10 @@ General Style
 }
 
 @media only screen and (min-width: 480px) mobile {
- .cd-btn {
+.cd-radial-slider-wrapper .cd-radial-slider .visible .cd-radial-slider-content .wrapper div .buttons{
   display: none;
-  }
-  .cd-btn:hover {
-  display: none;
-  }
+
+}
 
 }
 
