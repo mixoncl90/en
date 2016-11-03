@@ -345,6 +345,10 @@ header{
 .cd-radial-slider-content .wrapper div .secondary-btn{
   display: none;
 }
+.cd-radial-slider-content .wrapper div .cd-btn{
+  display: none;
+}
+
 
 }
 
