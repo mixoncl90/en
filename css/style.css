@@ -239,7 +239,7 @@ header{
   background: pink;
 }
 #page{
-    width: 55rem;
+    width: 80%;
     max-width: 480px;
   }
 #logo{
