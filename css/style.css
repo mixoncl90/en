@@ -228,7 +228,7 @@ Queries
 @media only screen and (min-device-width : 320px) {
 /* Styles */
 header{
-  width: 90%;
+  width: 100%;
   max-width: 480px;
   height: auto;
   background: none;
