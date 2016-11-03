@@ -229,7 +229,7 @@ Queries
 /* Styles */
 header{
   width: 90%;
-  max-width: 1360px;
+  max-width: 480px;
   height: auto;
   background: none;
   margin-left: auto;
@@ -240,6 +240,7 @@ header{
 }
 #page{
     width: 55rem;
+    max-width: 480px;
   }
 #logo{
     /*clear: right;*/
