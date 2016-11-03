@@ -227,15 +227,18 @@ Queries
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
 header{
-    width: 90%;
-    max-width: 1360px;
-    height: auto;
-    background: none;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    z-index: 500; 
-    background: pink;
+  width: 90%;
+  max-width: 1360px;
+  height: auto;
+  background: none;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 500; 
+  background: pink;
+}
+#page{
+  width: 65rem;
 }
 
 #logo{
