@@ -1149,11 +1149,11 @@ header{
 #about{
   width: 100%;
   text-align: center;
-  margin-top: 2%;
 }
 #content{
   width: 90%;
   text-align: center;
+  margin-top: -2%;
 }
 .cd-radial-slider-content .cd-btn {
     display: none !important;
