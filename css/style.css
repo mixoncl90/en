@@ -221,26 +221,35 @@ header{
 
 /* -------------------------------- 
 
-General Style
+Queries
 
 -------------------------------- */
-
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+header{
+    width: 90%;
+    max-width: 1360px;
+    height: auto;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 500; 
+    background: pink;
 }
 
-@media only screen and (min-width: 768px) {
-  
+#logo{
+    /*clear: right;*/
+    display: block;
+    position: relative;
+    top: 1rem;
+}
+#logo img{
+    float: left;
+    width: 5rem;
 }
 
-@media only screen and (min-width: 480px) mobile {
-.cd-radial-slider-wrapper .cd-radial-slider .visible .cd-radial-slider-content .wrapper div .buttons{
-  display: none;
-
 }
-
-}
-
 
 
 
@@ -1028,7 +1037,7 @@ Main components
   -moz-animation: cd-scroll-right 1.5s infinite;
   animation: cd-scroll-right 1.5s infinite;
 }
-@media only screen and (min-width: 870px) {
+/*@media only screen and (min-width: 870px) {
   #cd-table {
     margin: 2em auto;
     border-right: none;
@@ -1058,8 +1067,8 @@ Main components
   #cd-table .cd-scroll-right {
     display: none;
   }
-}
-@media only screen and (min-width: 1170px) {
+}*/
+/*@media only screen and (min-width: 1170px) {
   #cd-table {
     margin: 15em auto;
   }
@@ -1099,7 +1108,7 @@ Main components
     -o-transform: translateX(3px);
     transform: translateX(3px);
   }
-}
+}*/
 
 
 
