@@ -239,10 +239,12 @@ header{
   background: pink;
 }
 #page{
-  width: 30rem;
-  margin-left: auto;
-  margin-right: auto;
-}
+    width: 157%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+  }
 #logo{
     /*clear: right;*/
     display: block;
