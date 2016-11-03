@@ -1201,7 +1201,23 @@ header{
   height: auto;
   /* float: left; */
   margin-top: -45%;
-  }
+}
+#problem{
+  margin-top: 20rem;
+  background-size: 320%;
+}
+#problem_content{
+  padding-top: 3.8rem;
+}
+#problem_content h2{
+  font-size: 6em;
+  text-align: center;
+}
+#problem_content p{
+  text-align: center;
+  font-size: 1em;
+  width: 100%;
+}
 
 .cd-radial-slider-content .cd-btn {
     display: none !important;
