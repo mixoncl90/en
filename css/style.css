@@ -1152,7 +1152,7 @@ header{
 #about{
   width: 100%;
   text-align: center;
-  margin-top: -5%;
+  margin-top: -15%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1160,7 +1160,6 @@ header{
 #content{
   width: 90%;
   text-align: center;
-  margin-top: 44%;
   margin-left: auto;
   margin-right: auto;
   display: block;
