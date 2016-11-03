@@ -1311,15 +1311,143 @@ font-size: 3em;
 #featuretitle{
   width: 100%;
   text-align: left;
-  padding-top: 15rem;
+  padding-top: 35rem;
 }
 #featuretitle h3{
   font-size: 5em;
   text-align: center;
   margin-top: 70rem;
 }
+.featurespots{
+  width: 100%;
+  /* background: purple; */
+  margin-top: 31em;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.featurecontent{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 15%;
+  display: block;
+  margin-top: 60%;
+}
+.featurespots_image{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  clear: right;
+  padding-left: 15%;
+  margin-top: 15%;
+  padding-bottom: 10%;
+  }
+.featurespots .featurecontent p{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#priceplans{
+  margin-top: 265rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;  
+}
+#sectiontitle {
+    width: 90%;
+}
+#sectiontitle h3 {
+    padding-bottom: 4rem;
+    font-size: 3em;
+}
+#price_image {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.pricebox{
+  margin-top: 10%;
+}
+#contact{
+  padding-bottom: 5%;
+  margin-top: 200rem;
+}
+#phone{
+  margin-top: 15%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+#contact_content_left {
+    width: 100%;
+    height: auto;
+}
+#email{
+  margin-top: 15%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.icon{
+  /* width: auto; */
+  float: none;
+  max-width: 100%;
+}
+form {
+  width: 90%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact_content_left h1 {
+  color: #000035;
+  font-weight: bold;
+  font-size: 10em;
+  line-height: 1em;
+  text-align: center;
+}
+#contact_content_right {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
+footer{
+  margin-top: 43rem;
+}
+#footer_logo {
+  width: 50%;
+  height: auto;
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footertext li {
+    display: block;
+    width: 20%;
+    clear: right;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+#footertext {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* clear: right; */
+  /* float: right; */
+  margin-top: 10%;
+}
 .cd-radial-slider-content .cd-btn {
     display: none !important;
 }
