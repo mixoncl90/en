@@ -288,7 +288,7 @@ Sections
   clear: right;
   margin: 0 0 0 0;
   height: auto;
-  padding-top: 8rem;
+  /*padding-top: 8rem;*/
 }
 #bullets{
   width: 100%;
@@ -485,20 +485,20 @@ FEATURES
   text-align: center;
 }
 #details #details_content_left #blockimage{
-  width: 53%; /*337px*/
-  height: 384px;
+  width: 50%; /*337px*/
+  height: auto;
   float: left;
   clear: left;
   /* margin-left: 4%; */
   background-color: #E2E2E2; 
 }
 #details #details_content_right #blockimage{
-  width: 53%; /*337px*/
-  height: 384px;
+  width: 50%; /*337px*/
+  height: auto;
   float: right;
   clear: left;
   /* margin-left: 4%; */
-  background-color: #E2E2E2; 
+  /*background-color: #E2E2E2;*/ 
 }
 #details #details_content_right p{
   width: 80%;
@@ -525,7 +525,7 @@ FEATURES
   width: 45%; /*627px*/
   float: right;
   text-align: left;
-  padding-top: 2rem;
+  /*padding-top: 2rem;*/
   margin-left: 2rem;
 }
 #details_content_left span{
