@@ -339,10 +339,12 @@ header{
     transition: all .15s ease;
     border: #1DE9B6;
   }*/
-  .buttons{
+.buttons{
   display: none;
-  }
-
+}
+.secondary-btn{
+  display: block;
+}
 
 }
 
