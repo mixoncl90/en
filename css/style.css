@@ -1121,13 +1121,15 @@ MEDIA QUERIES
   margin-right: auto;
   max-width: 414px;
 }
-
+#logo{
+  width: 5rem;
+}
 #about{
   width: 100%;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 10%;
 }
-#content .fadeIn{
+#content{
   width: 100%;
   text-align: center;
 }
