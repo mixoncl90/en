@@ -1111,10 +1111,10 @@ MEDIA QUERIES
   text-align: center;
 }
 .cd-radial-slider-content .cd-btn {
-    display: none;
+    display: none !important;
 }
 .cd-radial-slider-content .secondary-btn {
-    display: none;
+    display: none !important;
 }
 
 }
