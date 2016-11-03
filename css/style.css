@@ -1150,12 +1150,16 @@ header{
   width: 100%;
   text-align: center;
   margin-top: 5%;
+  display: block;
 }
 #content{
   width: 90%;
   text-align: center;
-  margin-top: 5%;
-}
+  margin-top: 44%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
 .cd-radial-slider-content .cd-btn {
     display: none !important;
 }
