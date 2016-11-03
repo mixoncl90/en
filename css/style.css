@@ -342,7 +342,7 @@ header{
 .buttons{
   display: none;
 }
-.secondary-btn{
+.cd-radial-slider-content .wrapper div .secondary-btn{
   display: none;
 }
 
