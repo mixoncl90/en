@@ -225,6 +225,16 @@ header{
 Queries
 
 -------------------------------- */
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+#page{
+    width: 100%;
+    max-width: 1440px;
+  }
+}
+
+
 @media only screen and (min-device-width : 320px) {
 /* Styles */
 header{
