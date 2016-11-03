@@ -1173,6 +1173,14 @@ header{
   padding-left: 5%;
   padding-right: 5%;
 }
+#about #blockimage{
+  float: none;
+  width: 100%;
+  clear: both;
+  margin: 0 0 0 0;
+  height: auto;
+  padding-top: 10rem;
+}
 
 .cd-radial-slider-content .cd-btn {
     display: none !important;
