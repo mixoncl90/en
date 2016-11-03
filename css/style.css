@@ -127,8 +127,8 @@ FADE IN
 
 -------------------------------- */
 #page{
-  width: 100%;
-  max-width: 1440px;
+  width: 100% !important;
+  max-width: 1440px !important; 
   margin-left: auto;
   margin-right: auto;
   height: auto;
@@ -226,16 +226,168 @@ Queries
 
 -------------------------------- */
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
+@media only screen  and (min-width : 1224px) and (max-device-width : 1440px) {
 /* Styles */
 #page{
     width: 100%;
     max-width: 1440px;
   }
+header{
+  width: 90% !important;
+  max-width: 1440px !important;
+  }
+}
+
+/* Desktops 1024 ----------- */
+@media only screen  and (min-width : 1224px) and (max-device-width : 1440px) {
+/* Styles */
+.buttons{
+  display: block;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cd-radial-slider-content .wrapper div .secondary-btn{
+  display: block;
+  width: 15rem;
+}
+.cd-radial-slider-content .wrapper div .cd-btn{
+  display: block;
+  width: 15rem;
+}
 }
 
 
-@media only screen and (min-device-width : 320px) {
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) {
+/* Styles */
+#page{
+    width: 100%;
+    max-width: 1024px;
+  }
+header{
+  width: 90% !important;
+  max-width: 1024px !important;
+  }
+
+.buttons{
+  display: block;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cd-radial-slider-content .wrapper div .secondary-btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 23%;
+  float: right;*/
+}
+.cd-radial-slider-content .wrapper div .cd-btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cd-radial-slider-content .cd-btn {
+    white-space: nowrap;
+    display: inline-block;
+    height: 2rem;
+    line-height: 40px;
+    padding: 0 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
+    background: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Montserrat','Helvetica','sans-serif';
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;   
+    color: #666EE8;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    margin-right: 3rem;
+
+  }
+.cd-radial-slider-content .cd-btn:hover {
+    white-space: nowrap;
+    display: inline-block;
+    height: 2rem;
+    line-height: 40px;
+    padding: 0 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
+    background: #666EE8;
+    border-radius: 4px;
+    border:#666EE8;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Montserrat','Helvetica','sans-serif';
+    text-transform: uppercase;
+    letter-spacing: 1px;   
+    color: #FFFFFF;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    margin-right: 3rem;
+
+  }
+.cd-radial-slider-content .secondary-btn {
+    white-space: nowrap;
+    display: inline-block;
+    height: 2rem;
+    line-height: 40px;
+    padding: 0 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
+    background: #1DE9B6;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Montserrat','Helvetica','sans-serif';
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;   
+    color: #008B68;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+  }
+.cd-radial-slider-content .secondary-btn:hover {
+    white-space: nowrap;
+    display: inline-block;
+    height: 2rem;
+    line-height: 40px;
+    padding: 0 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
+    background: #008B68;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Montserrat','Helvetica','sans-serif';
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;   
+    color: #FFFFFF;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    border: #1DE9B6;
+}
+#about{
+  margin-top: -50%;
+  width: 100%;
+}
+#content{
+  width: 100%;
+  margin-top: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+}
+
+
+/* Mobile ----------- */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
 /* Styles */
 header{
   width: 90%;
@@ -358,6 +510,18 @@ header{
 .cd-radial-slider-content .wrapper div .cd-btn{
   display: none;
 }
+#content{
+  width: 100%;
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#about{
+  margin-top: -50%;
+  width: 100%;
+}
+
 
 
 }
