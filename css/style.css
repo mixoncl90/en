@@ -489,15 +489,14 @@ FEATURES
   height: auto;
   float: left;
   clear: left;
-  /* margin-left: 4%; */
-  background-color: #E2E2E2; 
+  margin-top: 1%;
 }
 #details #details_content_right #blockimage{
   width: 50%; /*337px*/
   height: auto;
   float: right;
   clear: left;
-  /* margin-left: 4%; */
+  margin-top: 3%;
   /*background-color: #E2E2E2;*/ 
 }
 #details #details_content_right p{
