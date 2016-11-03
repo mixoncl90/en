@@ -1221,6 +1221,10 @@ header{
 #details{
   margin-top: -100rem;
 }
+#details_content_left{
+  width: 100%;
+}
+
 #details #details_content_left #blockimage{
   width: 100%;
   height: auto;
