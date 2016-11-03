@@ -1106,6 +1106,7 @@ body{
   width: 100% !important;
   margin-left: auto;
   margin-right: auto;
+  position: absolute;
 }
 
 #page{
