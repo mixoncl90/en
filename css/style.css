@@ -1204,7 +1204,7 @@ header{
 }
 #problem{
   margin-top: 20rem;
-  background-size: 320%;
+  background-size: 275%;
 }
 #problem_content{
   padding-top: 3.8rem;
@@ -1217,6 +1217,36 @@ header{
   text-align: center;
   font-size: 1em;
   width: 100%;
+}
+#details{
+  margin-top: -100rem;
+}
+#details #details_content_left #blockimage{
+  width: 100%;
+  height: auto;
+}
+#details #details_content_left .text{
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#details #details_content_left .text h3{
+font-size: 3em;
+}
+#details_content_left span{
+  font-size: 1em;
+  color: #4A90E2;
+  letter-spacing: 1px;
+}
+#details #details_content_left p{
+  width: 100%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .cd-radial-slider-content .cd-btn {
