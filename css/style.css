@@ -1123,6 +1123,10 @@ MEDIA QUERIES
 }
 #logo{
   width: 5rem;
+  margin-top: 2em;
+}
+header{
+  width: 90%;
 }
 #about{
   width: 100%;
