@@ -1094,6 +1094,7 @@ MEDIA QUERIES
 }
 
 
+
 }
 /* ----------- Tablet ----------- */
 @media screen 
@@ -1105,10 +1106,16 @@ MEDIA QUERIES
   margin-right: auto;
   max-width: 1024px;
 }
-
-
+#logo{
+  width: 8rem;
+  margin-top: 2em;
+}
+header{
+  width: 100%;
+}
 
 }
+
 /* ----------- Mobile ----------- */
 @media screen 
   and (min-device-width: 320px) 
