@@ -1181,6 +1181,27 @@ header{
   height: auto;
   padding-top: 10rem;
 }
+.context{
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: -5%;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  }
+.bullet_line{
+  display: none;
+}
+#centerimage{
+  width: auto;
+  clear: both;
+  height: auto;
+  /* float: left; */
+  margin-top: -45%;
+}
 
 .cd-radial-slider-content .cd-btn {
     display: none !important;
