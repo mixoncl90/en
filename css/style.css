@@ -1083,8 +1083,7 @@ MEDIA QUERIES
 -------------------------------- */
 /* ----------- Desktop ----------- */
 @media screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1440px) 
+  and (min-device-width: 1280px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
 
@@ -1093,7 +1092,6 @@ MEDIA QUERIES
 /* ----------- Tablet ----------- */
 @media screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
 
@@ -1102,11 +1100,11 @@ MEDIA QUERIES
 /* ----------- Mobile ----------- */
 @media screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 768px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
 #about{
   width: 100%;
+  text-align: center;
 }
 #content .fadeIn{
   width: 100%;
