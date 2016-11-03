@@ -1103,13 +1103,13 @@ MEDIA QUERIES
   and (-webkit-min-device-pixel-ratio: 1) { 
 
 body{
-  width: 100%;
+  width: 100% !important;
   margin-left: auto;
   margin-right: auto;
 }
 
 #page{
-  width: 55rem;
+  width: 55rem!important;
   margin-left: auto;
   margin-right: auto;
 }
