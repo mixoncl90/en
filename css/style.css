@@ -1146,6 +1146,9 @@ header{
 header{
   width: 90%;
 }
+.cd-radial-slider-wrapper{
+  margin-top: -3%;
+}
 #about{
   width: 100%;
   text-align: center;
