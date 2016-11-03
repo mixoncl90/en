@@ -1109,7 +1109,12 @@ MEDIA QUERIES
 #content .fadeIn{
   width: 100%;
   text-align: center;
-
+}
+.cd-radial-slider-content .cd-btn {
+    display: none;
+}
+.cd-radial-slider-content .secondary-btn {
+    display: none;
 }
 
 }
