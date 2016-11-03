@@ -227,9 +227,6 @@ Queries
 -------------------------------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
-body{
-  width: 65rem;
-}
 header{
   width: 90%;
   max-width: 1360px;
@@ -241,7 +238,9 @@ header{
   z-index: 500; 
   background: pink;
 }
-
+#page{
+  width: 65rem;
+}
 #logo{
     /*clear: right;*/
     display: block;
